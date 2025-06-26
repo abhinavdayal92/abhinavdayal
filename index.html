@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Dayal - AI & Backend Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#home" class="nav-logo">Abhinav Dayal</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#certifications" class="nav-link">Certifications</a>
+            </li>
+        </ul>
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle Dark Mode">
+            <div class="toggle-slider"></div>
+        </button>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <!-- Header Section -->
+    <header class="header" id="home">
+        <div class="header-content">
+            <div class="header-left">
+                <h1>Abhinav Dayal</h1>
+                <p class="title">AI & Backend Developer</p>
+                <div class="contact-info">
+                    <a href="mailto:abhinavdayal9001@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>abhinavdayal9001@gmail.com</span>
+                    </a>
+                    <a href="tel:+917007601376" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91-7007601376</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhinav-dayal-442a79248/" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <a href="https://github.com/abhinavdayal92" class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub Profile</span>
+                    </a>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="Abhinav Dayal photo.jpg" alt="Abhinav Dayal" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Profile Summary -->
+        <section class="section profile-summary" id="about">
+            <h2><i class="fas fa-user"></i> Profile Summary</h2>
+            <p>AI & Backend Developer proficient in Java, Python, and SQL, with experience in building scalable backend services and AI-driven applications. Addressed and resolved over 100 data structure and algorithm challenges, enhancing problem solving skills and technical knowledge.</p>
+            <p>Developed AI-powered retrieval systems, health monitoring, and reservation platforms using Spring Boot, PostgreSQL, and RESTful APIs.</p>
+            <p>Certified in software development and database management with a passion for innovation.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="section education" id="education">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="education-item">
+                <h3>Manipal Institute of Technology</h3>
+                <div class="degree">B.Tech Computer Science (Artificial Intelligence) | Minor in Data Analytics</div>
+                <div class="duration">Sept 2022 - Aug 2026</div>
+                <div class="coursework">
+                    <strong>Relevant Coursework:</strong> Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA), Machine Learning (ML), Database Management Systems (DBMS)
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills" id="skills">
+            <h2><i class="fas fa-code"></i> Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">H2 Database</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>Backend Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Framework</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">Hibernate</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4>AI/ML Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects" id="projects">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Retrieval Augmented Generation (RAG)</h3>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ChromaDB</span>
+                            <span class="tech-tag">Hugging Face</span>
+                            <span class="tech-tag">NLP</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <ul>
+                            <li>Facilitates high-speed retrieval of contextually relevant information from large-scale structured and unstructured databases</li>
+                            <li>Integrates ChromaDB and Hugging Face's LLM, leveraging vector embeddings and NLP</li>
+                            <li>Enhanced semantic search accuracy and knowledge retrieval using transformer-based models</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Health Monitoring System</h3>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">H2 Database</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <ul>
+                            <li>Engineered a web-based health analytics platform for tracking 15+ physiological metrics</li>
+                            <li>Improved real-time health data visualization and user engagement by 35%</li>
+                            <li>Implemented Spring Boot RESTful APIs & H2-Database, optimizing data retrieval speed by 30%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Amenity Reservation System</h3>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Cloud</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <ul>
+                            <li>Developed a cloud-based amenity management platform that automates facility booking</li>
+                            <li>Reduced manual scheduling time by 20 hours/month and improved efficiency by 25%</li>
+                            <li>Built with Spring Boot and PostgreSQL for scalable, ACID-compliant data storage</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Blogging Platform (Ongoing)</h3>
+                        <div class="project-tech-stack">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Authentication</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <ul>
+                            <li>Developing a dynamic blogging platform with publishing, editing, and management features</li>
+                            <li>Incorporating role-based authentication and user access control</li>
+                            <li>Leveraging Spring Boot, PostgreSQL, and RESTful API integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section certifications" id="certifications">
+            <h2><i class="fas fa-certificate"></i> Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <i class="fas fa-code"></i>
+                    <h4>Certified Software Engineer</h4>
+                    <p>HackerRank</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-leaf"></i>
+                    <h4>Spring Framework Certification</h4>
+                    <p>Coursera</p>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-database"></i>
+                    <h4>Oracle SQL Databases Certification</h4>
+                    <p>Coursera</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
